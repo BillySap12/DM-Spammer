@@ -26,8 +26,6 @@ print(Fore.LIGHTCYAN_EX + r"""
 
       """)
 
-TOKEN = ""
-
 def gatherinfo():
     while True:
         token = input(Fore.RED + "Enter Bot Token: ")
