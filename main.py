@@ -7,6 +7,9 @@ import platform
 
 current_os = platform.system()
 
+if current_os == "Windows":
+    os.system("title DM Spammer")
+
 intents = discord.Intents.default() 
 intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
