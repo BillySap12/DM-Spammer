@@ -2,6 +2,8 @@
 
 This is a short and simple tool made in Python. It sends a direct message (DM) to every member in a Discord server by using a Discord bot to message the members directly.
 
+Make sure the bot has member intents enabled, otherwise it will not work.
+
 # Installation
 
 # Linux
@@ -29,7 +31,7 @@ Once it has downloaded, go to the directory where it was downloaded. Extract all
 Open your cmd, and write the following: ``cd path/where/the/zip/got/downloaded`` (replace ``path/where/the/zip/got/dowloaded`` with your actual path).
 
 Also, make sure you have Python installed on your computer. The recommended version is 3.13.3, as this is the version this tool was made in.
-Once you have done that, run: pip install -r requirements.txt.
+Once you have done that, run: ``pip install -r requirements.txt``.
 
 Wait for them to download.
 
