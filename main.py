@@ -11,7 +11,7 @@ intents = discord.Intents.default()
 intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-print(Fore.LIGHTCYAN_EX + """
+print(Fore.LIGHTCYAN_EX + r"""
 
  ________  _____ ______           ________  ________  ________  _____ ______   _____ ______   _______   ________         
 |\   ___ \|\   _ \  _   \        |\   ____\|\   __  \|\   __  \|\   _ \  _   \|\   _ \  _   \|\  ___ \ |\   __  \        
