@@ -4,6 +4,7 @@ from colorama import Fore
 import asyncio
 import os
 import platform
+import sys
 
 current_os = platform.system()
 
@@ -79,12 +80,12 @@ async def start_bot():
                         os.system("cls")
                         print(Fore.BLUE + "Thank you for using our tool. Exiting in 5 seconds...")
                         await asyncio.sleep(5)
-                        exit()
+                        sys.exit()
                     elif current_os == "Linux" or current_os == "Darwin":
                         os.system("clear")
                         print(Fore.BLUE + "Thank you for using our tool. Exiting in 5 seconds...")
                         await asyncio.sleep(5)
-                        exit()
+                        sys.exit()
                 else:
                     print(Fore.WHITE + "\n-------------\n\nI guess it's just us now.\nIf you get bored of me and want to exit, press Control + C.")
         try:
